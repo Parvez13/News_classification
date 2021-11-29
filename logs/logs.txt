@@ -1,0 +1,70 @@
+2021-11-29 01:46:13 Load Dataset
+2021-11-29 01:46:13 Check Head
+2021-11-29 01:46:13 Check Tail
+2021-11-29 01:46:13 Info
+2021-11-29 01:46:13 Describe
+2021-11-29 01:46:13 Checking Null Values
+2021-11-29 01:46:13 Check value counts for Category
+2021-11-29 01:46:13 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:46:13 Preprocessing
+2021-11-29 01:46:13 Labels One Hot
+2021-11-29 01:46:13 Labels encoded
+2021-11-29 01:46:13 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:46:13 Splitting
+2021-11-29 01:46:53 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:46:54 Ragged Tensors for train and val sentences
+2021-11-29 01:46:57 Create a baseline model
+2021-11-29 01:46:57 Evaluate baseline model
+2021-11-29 01:46:57 Make predictions
+2021-11-29 01:46:58 Evaluation metrics using baseline model 
+2021-11-29 01:46:58 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:46:58 Converting Text Into Numbers For Tokenization
+2021-11-29 01:46:59 Embedding Layer
+2021-11-29 01:46:59 Create Tensorboard Callback
+2021-11-29 01:46:59 Early Stopping Callbacks
+2021-11-29 01:46:59 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:46:59 Simple Dense Model
+2021-11-29 01:46:59 Create Dataset using `tf.data.Dataset` for training and validation
+2021-11-29 01:46:59 Prefetch batch using `tf.data.AUTOTUNE`
+2021-11-29 01:46:59 Fit and train model
+2021-11-29 01:47:05 Evaluate model_1 on val_dataset
+2021-11-29 01:47:05 Make prediction using simple dense model
+2021-11-29 01:47:06 Evaluate using simple dense model
+2021-11-29 01:47:06 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:47:06 Model 2 Conv1D
+2021-11-29 01:47:06 Fit and train model
+2021-11-29 01:47:21 Evaluate using model_2 on val_dataset
+2021-11-29 01:47:21 Make prediction with Conv1D model
+2021-11-29 01:47:21 Evaluation metrics using Conv1D
+2021-11-29 01:47:21 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:47:21 Model_3 LSTM
+2021-11-29 01:47:22 Fit and train model
+2021-11-29 01:47:54 Evaluate model_3 on val_dataset
+2021-11-29 01:47:55 Make prediction with LSTM model
+2021-11-29 01:47:56 Evaluation metrics using LSTM
+2021-11-29 01:47:56 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:47:56 Model 4 GRU
+2021-11-29 01:47:56 Fit and train model
+2021-11-29 01:48:24 Evaluate Model 4 on val_dataset
+2021-11-29 01:48:24 Make Prediction using model_4 on val_dataset
+2021-11-29 01:48:25 Evaluate metrics 
+2021-11-29 01:48:25 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:48:25 Model 5 Bidirectional LSTM
+2021-11-29 01:48:26 Fit and train model
+2021-11-29 01:50:08 Evaluate model_5 on val_dataset
+2021-11-29 01:50:10 Make prediction using Model_5 on val_dataset
+2021-11-29 01:50:13 Evaluation Metrics
+2021-11-29 01:50:13 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:50:13 Model 6 using Transfer Learning
+2021-11-29 01:50:51 Fit and train
+2021-11-29 01:54:26 Evaluate model_6 on val_dataset
+2021-11-29 01:54:33 Make Prediction using model_6 on val_dataset
+2021-11-29 01:54:39 Evaluation metrics
+2021-11-29 01:54:40 ----------------------------------------------------------------------------------------------------
+2021-11-29 01:54:40 Save best performing model
+2021-11-29 01:58:21 Load saved model and checking summary
+2021-11-29 01:58:49 Evaluate saved model on val_dataset
+2021-11-29 01:59:46 Make prediction
+2021-11-29 02:00:22 Check the model_logs on tensorboard
+2021-11-29 02:00:57 ----------------------------------------------------------------------------------------------------
+2021-11-29 02:00:57 End
